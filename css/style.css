@@ -23,16 +23,6 @@ body
     display: table-cell;
 }
 
-@media (orientation: portrait) {
-    body {
-        display: inline;
-    }
-
-    .row {
-        flex-flow: column;
-    }
-}
-
 .row {
     display: flex;
     vertical-align: middle;
@@ -55,16 +45,36 @@ body
 }
 
 .btn-download {
-  background-color: rgb(84, 182, 154);
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 40px;
-  margin-top: 1em;
+    background-color: rgb(84, 182, 154);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-top: 1em;
 }
 
 .btn-download:hover {
-  background-color: rgb(60, 131, 110);
+    background-color: rgb(60, 131, 110);
+}
+
+footer {
+  margin-top: 6em;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (orientation: portrait) {
+    body {
+        display: inline;
+    }
+
+    .row {
+        flex-flow: column;
+    }
+
+    .title {
+        margin-top:  0%;
+    }
 }
