@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Pragmatica;
+    src: url(../media/Pragmatica-ExtraLight.ttf);
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin:auto;
+}
+
+body
+{
+    background-color: #363940;
+    color: #b4b4b4;
+    font-family: Pragmatica;
+    font-size:  1.2em;
+    vertical-align: middle;
+    margin: 2em auto;
+    display: table-cell;
+}
+
+@media (orientation: portrait) {
+    body {
+        display: inline;
+    }
+
+    .row {
+        flex-flow: column;
+    }
+}
+
+.row {
+    display: flex;
+    vertical-align: middle;
+}
+
+.column {
+    display: inline-block;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 25%;
+}
+
+.quote {
+    font-size: 1.2em;
+}
+
+.btn-download {
+  background-color: rgb(84, 182, 154);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 40px;
+  margin-top: 1em;
+}
+
+.btn-download:hover {
+  background-color: rgb(60, 131, 110);
+}
