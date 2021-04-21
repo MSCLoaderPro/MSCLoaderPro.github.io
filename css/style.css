@@ -103,4 +103,8 @@ footer {
     .logo {
         width: 100%;
     }
+
+    .text-box {
+        margin-top: -2em;
+    }
 }
