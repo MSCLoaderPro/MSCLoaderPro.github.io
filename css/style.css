@@ -10,6 +10,11 @@ html, body {
 html {
     display: table;
     margin:auto;
+
+    background: rgb(43,46,51);
+    background: linear-gradient(90deg, rgba(43,46,51,1) 0%, rgba(54,57,64,1) 25%, rgba(54,57,64,1) 75%, rgba(43,46,51,1) 100%);
+    background-attachment: fixed;
+    background-position: top center;
 }
 
 body
@@ -20,11 +25,6 @@ body
     vertical-align: middle;
     margin: 2em auto;
     display: table-cell;
-
-    background: rgb(43,46,51);
-    background: linear-gradient(90deg, rgba(43,46,51,1) 0%, rgba(54,57,64,1) 25%, rgba(54,57,64,1) 75%, rgba(43,46,51,1) 100%);
-    background-attachment: fixed;
-    background-position: top center;
 }
 
 .content {
