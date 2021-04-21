@@ -11,10 +11,11 @@ html {
     display: table;
     margin:auto;
 
-    background: rgb(43,46,51);
+    background: rgb(43,46,51) no-repeat center center fixed;
     background: linear-gradient(90deg, rgba(43,46,51,1) 0%, rgba(54,57,64,1) 25%, rgba(54,57,64,1) 75%, rgba(43,46,51,1) 100%);
     background-attachment: fixed;
     background-position: top center;
+    background-clip: padding-box;
 }
 
 body
